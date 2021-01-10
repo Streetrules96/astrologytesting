@@ -1,0 +1,182 @@
+.main__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #645fb1;
+    padding: 20px;
+}
+
+.main__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.main__header-left {
+    flex: 0 1 60%;
+}
+
+.main__header-right {
+    flex: 0 1 40%;
+    padding-left: 15px;
+}
+@media (max-width: 550px) {
+    .main__header {
+        display: block;
+    } 
+    .main__header-right img {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+.main__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0000ff;
+    text-align: center;
+}
+
+.main__title p {
+    margin-bottom: 10px;
+}
+
+.main__header-right img {
+    display: block;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.main__welcome {
+    color: #ff0066;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.info {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.info a, .main__item a {
+    color: #0000ff;
+}
+
+.main__item {
+    padding-left: 65px;
+    position: relative;
+}
+
+.main__icon {
+    position: absolute;
+    left: -10px;
+    top: 0;
+}
+@media (max-width: 550px){
+    .main__item {
+        padding-left: 0;
+    }
+    .main__icon {
+        position: static;
+    }
+}
+
+.main__wrapper span {
+    color: #0000ff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+@media (max-width: 550px){
+    .main__wrapper {
+        border: none;
+        padding: 0;
+    }
+}
+
+.main__wrapper p {
+    margin-bottom: 10px;
+}
+
+.question {
+    color: #ff0066;
+    padding-left: 65px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+@media (max-width: 550px){
+    .question {
+        padding-left: 0;
+    }
+}
+
+.mail {
+    margin: 20px 0;
+    border: 1px dashed #645fb1;
+    padding: 10px;
+}
+@media (max-width: 550px) {
+    .mail {
+        margin-left: 0;
+    }
+}
+
+.mail img {
+    margin-right: 10px;
+}
+
+.mail a {
+    color: #0000ff;
+}
+
+
+.main__contacts a {
+    color: #0000ff;
+}
+
+.contact__item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact__item img {
+    margin: 0 10px;
+}
+
+.phone {
+    width: 15px;
+    height: 15px;
+}
+
+.contact__item a {
+    margin-left: 5px;
+}
+
+.ptitle {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__img {
+    text-align: center;
+}
+
+.text__link {
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+

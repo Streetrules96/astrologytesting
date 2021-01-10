@@ -1,0 +1,40 @@
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.info img {
+    margin-left: 10px;
+}
+
+.email {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.phone {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact__item img {
+    margin-right: 10px;
+}
+
+.contact__item a {
+    margin-left: 5px;
+}
+
+
+
+
+
